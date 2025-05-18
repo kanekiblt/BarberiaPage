@@ -1,23 +1,30 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-/* .entrada{
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
-} */
 
+.entrada{
+    display: flex;
+    justify-content: center;
+    height: 100vh;  
+}
 .menu ul {
-  display: flex;
-  list-style-type: none;
-  gap: 1rem;
-  padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding: 0;
 }
 
 .menu li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #f0f0f0;
+
+
 }
 
 .menu li a:hover {
