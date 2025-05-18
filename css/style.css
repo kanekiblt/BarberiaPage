@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* .entrada{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+} */
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  /* color: #007BFF; */
+    text-decoration: underline;
+}
