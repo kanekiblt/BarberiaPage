@@ -1,0 +1,50 @@
+.franja {
+  background-color: brown;
+  /* position: fixed; */
+  margin-top: -43px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.text-franja  {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scroll 10s linear infinite;
+}
+.text-franja span  span{
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+  padding-right: 100%;
+}
+.text-franja span:nth-child(2) span:nth-child(1) {
+  animation-delay: 8s;
+}
+@keyframes scroll {
+    0% {transform: translateY(0);}
+    100% {transform: translateX(-100%);}
+
+}
+
+.franja:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.barra-superior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 2rem 0; 
+}
